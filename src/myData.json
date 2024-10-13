@@ -1,0 +1,34 @@
+[
+  {
+    "pledgeHead" : "Pledge with no reward",
+    "pledgeMore" : "",
+    "pledgeAmount" : "",
+    "pledgeLeft" : "",
+    "pledgeInput" : "first",
+    "pledgeNote" : "Choose to support us without a reward if you simply believe in our project. As a backer, you will be signed up to receive product updates via email."
+  },
+  {
+    "pledgeHead" : "Bamboo Stand",
+    "pledgeMore" : 25,
+    "pledgeAmount" : 101,
+    "pledgeLeft" : "left",
+    "pledgeInput" : "second",
+    "pledgeNote" : "You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list."
+  },
+  {
+    "pledgeHead" : "Black Edition Stand",
+    "pledgeMore" : 75,
+    "pledgeAmount" : 64,
+    "pledgeLeft" : "left",
+    "pledgeInput" : "third",
+    "pledgeNote" : "You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included."
+  },
+  {
+    "pledgeHead" : "Mahogany Special Edition",
+    "pledgeMore" : 200,
+    "pledgeAmount" : 0,
+    "pledgeLeft" : "left",
+    "pledgeInput" : "fourth",
+    "pledgeNote" : "You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added to our Backer member list. Shipping is included."
+  }
+]
