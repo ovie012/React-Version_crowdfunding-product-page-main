@@ -31,7 +31,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 20;
 }
 
 header div {
@@ -39,7 +39,7 @@ header div {
 }
 
 header img {
-  z-index: 100;
+  z-index: 20;
 }
 
 .nav {
@@ -489,6 +489,7 @@ span.loading::after {
   border-radius: 10px;
   position: absolute;
   top: 20%;
+  z-index: 21;
 }
 
 .pledge-chosen img {
@@ -554,6 +555,7 @@ span.loading::after {
   /* margin-top: -800px; */
   position: absolute;
   top: 9%;
+  z-index: 21;
 }
 
 .pledge-choose img {
@@ -849,5 +851,10 @@ p.error-text {
     display: flex;
     gap: 15px;
     align-items: center;
+  }
+
+  p.error-text {
+    left: 20%;
+    top: 85px;
   }
 }
