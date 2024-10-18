@@ -7,6 +7,8 @@ import './App.css';
 
 function App() {
   const [clicked, setClicked] = useState(false);
+  const [headerControl, setHeaderControl] = useState(false);
+  const [headerControlText, setHeaderControlText] = useState('hamburger');
   const [pledged, setPledged] = useState(false);
   const [letsPledge, setLetsPledge] = useState(false);
   const [selectedPledge, setSelectedPledge] = useState();
@@ -64,10 +66,19 @@ function App() {
     setSelectedPledge(!selectedPledge);
   };
 
+  const headerController = () => {
+    setHeaderControl(!headerControl);
+    if (headerControl === false) {
+      setHeaderControlText('close-menu');
+    } else {
+      setHeaderControlText('hamburger');
+    }
+  };
+
   return (
     <>
       {clicked && <Pledge scrollToTop={scrollToTop} error={error} errorText={errorText} input={input} selectedPledge={selectedPledge} letsPledge={letsPledge} wePledging={wePledging} pledged={pledged} pledging={pledging} clickedPledge={clickedPledge} />}
-      <Header />
+      <Header scrollToTop={scrollToTop} headerControl={headerControl} headerController={headerController} headerControlText={headerControlText} />
       <MainPage scrollToTop={scrollToTop} wePledging={wePledging} clickedPledge={clickedPledge} />
     </>
   )
