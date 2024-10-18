@@ -535,6 +535,13 @@ span.loading::after {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .pledge-chosen {
+    width: 90%;
+    padding: 7%;
+  }
+}
+
 /* .pledge choose */
 .pledge-choose {
   width: 55%;
